@@ -74,6 +74,8 @@ def filter_hailstones(hailstones, pixel_meter_ratio, max_radius_diff=2, max_velo
             for k in range(j + 1, n):
                 d1, d2, d3 = hailstones[i], hailstones[j], hailstones[k]
 
+                print(f"Checking line: {i}, {j}")
+
 
                 buffer = 0
                 if(d1[1] == 936 and d2[1] == 864 and d1[3] == 60 and d2[3] == 60 and d3[3] == 60 and d3[1] == 792 and buffer == 0):
@@ -158,7 +160,14 @@ def main():
         return
 
     filtered_hailstones = filter_hailstones(hailstones, pixel_to_meter)
-    save_filtered_hailstones("filteredHailstones.txt", filtered_hailstones)
+
+    run = int(input("Is this the first plane, or the second (Enter 1 or 2): "))
+    if(run == 1):
+        save_filtered_hailstones("filteredHailstones1.txt", filtered_hailstones)
+    if(run == 2):
+        save_filtered_hailstones("filteredHailstones2.txt", filtered_hailstones)
+    else:
+        print("Please enter either 1 or 2")
 
     if filtered_hailstones:
         print(f"Filtered hailstones saved: {len(filtered_hailstones)} entries.")

@@ -33,9 +33,18 @@ def log_hailstone_data(frame_id, detections, file):
         for x, y, radius, _ in detections:
             txtfile.write(f"Frame {frame_id}: X={x}, Y={y}, Radius={radius}\n")
 
+
+def returnPath():
+    return video_path
+
 def main():
-    cap = cv2.VideoCapture("/users/lucst/videos/captures/right_view.mp4")
+    #left_view.mp4
+    #"/users/lucst/videos/captures/hailstoneTest2.mp4"
+    cap = cv2.VideoCapture(video_path)
     ret, prev_frame = cap.read()
+
+    #Rotate frame if needed
+    #prev_frame = cv2.rotate(prev_frame, cv2.ROTATE_90_CLOCKWISE)
     prev_gray = cv2.cvtColor(prev_frame, cv2.COLOR_BGR2GRAY)
 
     #Clear hailsontData
@@ -74,6 +83,7 @@ def main():
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
+    video_path = "/users/lucst/videos/captures/right_view.mp4"
     main()
     
     import time
