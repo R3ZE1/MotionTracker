@@ -1,5 +1,6 @@
 import math
 import re
+import subprocess
 
 def read_hailstone_data(file_path):
     """Reads hailstone detection data from the file and returns a list of (frame, x, y, radius)."""
@@ -34,14 +35,35 @@ def velocity(p1, p2):
     frame_diff = p2[0] - p1[0]
     if frame_diff == 0:
         return None  # Avoid division by zero
+    
+    #returns magnitude distance
     distance = math.sqrt((p2[1] - p1[1]) ** 2 + (p2[2] - p1[2]) ** 2)
 
     #time = (frame diff) / (fps)
 
-    return distance / frame_diff
+    distanceVer = p2[2] - p1[1]
+    distanceHor = p2[1] - p1[1]
 
+    #Velocity = distance/time
+    velVer = distanceVer / frame_diff
+    velHor = distanceHor / frame_diff
 
-def filter_hailstones(hailstones, max_radius_diff=2, max_velocity_deviation=2.0):
+     #Returns magnitude velocity
+    velMag = distance / frame_diff
+
+    return velVer, velHor, velMag
+
+   
+
+def load_pixel_to_meter():
+    try:
+        with open("pixelToMeter.txt", 'r') as file:
+            return float(file.read().strip())
+    except Exception as e:
+        print(f"Error loading pixel-to-meter ratio: {e}")
+        return None
+
+def filter_hailstones(hailstones, pixel_meter_ratio, max_radius_diff=2, max_velocity_deviation=2.0):
     """Filters hailstones by ensuring consistent motion and radius."""
     filtered_hailstones = []
     n = len(hailstones)
@@ -52,11 +74,11 @@ def filter_hailstones(hailstones, max_radius_diff=2, max_velocity_deviation=2.0)
             for k in range(j + 1, n):
                 d1, d2, d3 = hailstones[i], hailstones[j], hailstones[k]
 
+
                 buffer = 0
                 if(d1[1] == 936 and d2[1] == 864 and d1[3] == 60 and d2[3] == 60 and d3[3] == 60 and d3[1] == 792 and buffer == 0):
-                    print(f"{d1}\n{d2}\n{d3}")
+                    #print(f"{d1}\n{d2}\n{d3}")
                     buffer = 1
-
 
                 if(d1[2] > d2[2] or d2[2] > d3[2] or d1[2] > d3[2]):
                     #Movement does not make sense
@@ -65,8 +87,9 @@ def filter_hailstones(hailstones, max_radius_diff=2, max_velocity_deviation=2.0)
                 # Ensure frames are increasing (no duplicate-frame detections)
                 if not (d1[0] < d2[0] < d3[0]):
                     continue
+                
 
-                if(d2[0] - d1[0] < 5 or d3[0] - d2[0] < 5):
+                if(d2[0] - d1[0] > 5 or d3[0] - d2[0] > 5):
                     #Frames are too far apart, even if this is a valid detection (Which it most likely istn't it would not be accurate enougth to track anyways)
                     continue
 
@@ -75,27 +98,35 @@ def filter_hailstones(hailstones, max_radius_diff=2, max_velocity_deviation=2.0)
                     continue
 
                 # Check velocity consistency
-                v1 = velocity(d1, d2)
-                v2 = velocity(d2, d3)
+                v1Ver, v1Hor, magVel1 = velocity(d1, d2)
+                v2Ver, v2Hor, magVel2 = velocity(d2, d3)
 
-                if v1 is None or v2 is None:
+                if v1Ver is None or v1Hor is None or v2Ver is None or v2Hor is None or v1Hor == 0 or v1Ver == 0 or v2Hor == 0 or v2Ver == 0:
+                    continue
+                
+                if abs(magVel1 - magVel2) > max_velocity_deviation:
                     continue
 
-                if abs(v1 - v2) > max_velocity_deviation:
-                    continue
 
                 #At this point we have passed all of the checks we need, this is a valid detection
 
                 #Get velocity in pixels per second
                 #Take average between the two
 
-                vel = round(((v1 + v2) / 2), 2)
+                #print(f"{d1}\n{d2}\n{d3}, n:{detectionNum}")
+
+
+                velPixelsVer = round(((v1Ver + v2Ver) / 2), 2)
+                velMetersVer = round(velPixelsVer * pixel_meter_ratio, 2)
+
+                velPixelsHor = round(((v1Hor + v2Hor) / 2), 2)
+                velMetersHor = round(velPixelsHor * pixel_meter_ratio, 2)
 
 
                 # If all tests pass, consider this a valid hailstone
-                filtered_hailstones.append(d1 + [vel, detectionNum])
-                filtered_hailstones.append(d2 + [vel, detectionNum])
-                filtered_hailstones.append(d3 + [vel, detectionNum])
+                filtered_hailstones.append(d1 + [velMetersVer, velMetersHor, detectionNum])
+                filtered_hailstones.append(d2 + [velMetersVer, velMetersHor, detectionNum])
+                filtered_hailstones.append(d3 + [velMetersVer, velMetersHor, detectionNum])
 
                 detectionNum += 1
 
@@ -106,8 +137,8 @@ def save_filtered_hailstones(file_path, hailstones):
     """Saves filtered hailstones to a file."""
     with open(file_path, "w") as file:  # Clears the file before writing
         for hailstone in hailstones:
-            frame, x, y, radius, velocity, detectionNum = hailstone
-            file.write(f"Frame {frame}: X={x}, Y={y}, Radius={radius}, Velocity={velocity}, DetectionNum={detectionNum}\n")
+            frame, x, y, radius, velocityY, VelocityX, detectionNum = hailstone
+            file.write(f"Frame {frame}: X={x}, Y={y}, Radius={radius}, VelocityVer={velocityY}, VelocityHor={VelocityX}, DetectionNum={detectionNum}\n")
 
 
 def main():
@@ -117,8 +148,16 @@ def main():
     if not hailstones:
         print("No valid hailstones found. Check input formatting.")
         return
+    
+    #run_conversion_script()
+    from Conversion import main
+    main()
+    pixel_to_meter = load_pixel_to_meter()
+    if(pixel_to_meter is None):
+        print("Pixel-to-meter ratio missing. Run the calibration script first.")
+        return
 
-    filtered_hailstones = filter_hailstones(hailstones)
+    filtered_hailstones = filter_hailstones(hailstones, pixel_to_meter)
     save_filtered_hailstones("filteredHailstones.txt", filtered_hailstones)
 
     if filtered_hailstones:

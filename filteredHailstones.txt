@@ -1,45 +1,201 @@
-Frame 32: X=729, Y=624, Radius=51, Velocity=14.4, DetectionNum=0
-Frame 50: X=929, Y=766, Radius=49, Velocity=14.4, DetectionNum=0
-Frame 74: X=657, Y=1008, Radius=51, Velocity=14.4, DetectionNum=0
-Frame 32: X=729, Y=624, Radius=51, Velocity=13.38, DetectionNum=1
-Frame 50: X=929, Y=766, Radius=49, Velocity=13.38, DetectionNum=1
-Frame 82: X=696, Y=1116, Radius=48, Velocity=13.38, DetectionNum=1
-Frame 33: X=864, Y=864, Radius=60, Velocity=59.59, DetectionNum=2
-Frame 38: X=735, Y=1129, Radius=61, Velocity=59.59, DetectionNum=2
-Frame 49: X=521, Y=1756, Radius=61, Velocity=59.59, DetectionNum=2
-Frame 37: X=519, Y=753, Radius=61, Velocity=90.58, DetectionNum=3
-Frame 44: X=728, Y=1358, Radius=60, Velocity=90.58, DetectionNum=3
-Frame 49: X=521, Y=1756, Radius=61, Velocity=90.58, DetectionNum=3
-Frame 39: X=333, Y=639, Radius=35, Velocity=41.53, DetectionNum=4
-Frame 52: X=207, Y=1170, Radius=35, Velocity=41.53, DetectionNum=4
-Frame 58: X=359, Y=1364, Radius=33, Velocity=41.53, DetectionNum=4
-Frame 39: X=333, Y=639, Radius=35, Velocity=41.81, DetectionNum=5
-Frame 52: X=207, Y=1170, Radius=35, Velocity=41.81, DetectionNum=5
-Frame 72: X=951, Y=1544, Radius=33, Velocity=41.81, DetectionNum=5
-Frame 39: X=333, Y=639, Radius=35, Velocity=16.92, DetectionNum=6
-Frame 55: X=430, Y=908, Radius=33, Velocity=16.92, DetectionNum=6
-Frame 93: X=477, Y=1513, Radius=31, Velocity=16.92, DetectionNum=6
-Frame 39: X=1079, Y=485, Radius=17, Velocity=45.07, DetectionNum=7
-Frame 49: X=736, Y=767, Radius=16, Velocity=45.07, DetectionNum=7
-Frame 58: X=1078, Y=996, Radius=14, Velocity=45.07, DetectionNum=7
-Frame 39: X=1079, Y=485, Radius=17, Velocity=12.54, DetectionNum=8
-Frame 77: X=613, Y=496, Radius=15, Velocity=12.54, DetectionNum=8
-Frame 94: X=432, Y=617, Radius=16, Velocity=12.54, DetectionNum=8
-Frame 39: X=587, Y=448, Radius=68, Velocity=10.39, DetectionNum=9
-Frame 67: X=621, Y=744, Radius=67, Velocity=10.39, DetectionNum=9
-Frame 84: X=793, Y=757, Radius=68, Velocity=10.39, DetectionNum=9
-Frame 39: X=587, Y=448, Radius=68, Velocity=22.95, DetectionNum=10
-Frame 68: X=549, Y=1117, Radius=67, Velocity=22.95, DetectionNum=10
-Frame 86: X=649, Y=1515, Radius=68, Velocity=22.95, DetectionNum=10
-Frame 40: X=803, Y=899, Radius=68, Velocity=11.07, DetectionNum=11
-Frame 68: X=549, Y=1117, Radius=67, Velocity=11.07, DetectionNum=11
-Frame 85: X=721, Y=1136, Radius=68, Velocity=11.07, DetectionNum=11
-Frame 40: X=803, Y=899, Radius=68, Velocity=23.15, DetectionNum=12
-Frame 69: X=476, Y=1490, Radius=67, Velocity=23.15, DetectionNum=12
-Frame 87: X=576, Y=1892, Radius=68, Velocity=23.15, DetectionNum=12
-Frame 48: X=520, Y=383, Radius=16, Velocity=39.12, DetectionNum=13
-Frame 80: X=1046, Y=1490, Radius=15, Velocity=39.12, DetectionNum=13
-Frame 101: X=289, Y=1851, Radius=16, Velocity=39.12, DetectionNum=13
-Frame 58: X=1078, Y=996, Radius=14, Velocity=40.92, DetectionNum=14
-Frame 85: X=0, Y=1268, Radius=16, Velocity=40.92, DetectionNum=14
-Frame 101: X=289, Y=1851, Radius=16, Velocity=40.92, DetectionNum=14
+Frame 0: X=822, Y=793, Radius=43, VelocityVer=1.27, VelocityHor=-0.15, DetectionNum=0
+Frame 1: X=751, Y=1192, Radius=43, VelocityVer=1.27, VelocityHor=-0.15, DetectionNum=0
+Frame 2: X=679, Y=1589, Radius=43, VelocityVer=1.27, VelocityHor=-0.15, DetectionNum=0
+Frame 32: X=595, Y=452, Radius=20, VelocityVer=1.2, VelocityHor=-0.15, DetectionNum=1
+Frame 33: X=523, Y=905, Radius=20, VelocityVer=1.2, VelocityHor=-0.15, DetectionNum=1
+Frame 34: X=451, Y=1357, Radius=20, VelocityVer=1.2, VelocityHor=-0.15, DetectionNum=1
+Frame 32: X=595, Y=452, Radius=20, VelocityVer=1.0, VelocityHor=-0.15, DetectionNum=2
+Frame 33: X=523, Y=905, Radius=20, VelocityVer=1.0, VelocityHor=-0.15, DetectionNum=2
+Frame 35: X=379, Y=1810, Radius=20, VelocityVer=1.0, VelocityHor=-0.15, DetectionNum=2
+Frame 32: X=595, Y=452, Radius=20, VelocityVer=1.83, VelocityHor=-0.15, DetectionNum=3
+Frame 34: X=451, Y=1357, Radius=20, VelocityVer=1.83, VelocityHor=-0.15, DetectionNum=3
+Frame 35: X=379, Y=1810, Radius=20, VelocityVer=1.83, VelocityHor=-0.15, DetectionNum=3
+Frame 32: X=936, Y=432, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=4
+Frame 33: X=864, Y=864, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=4
+Frame 34: X=792, Y=1297, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=4
+Frame 32: X=936, Y=432, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=5
+Frame 33: X=864, Y=864, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=5
+Frame 35: X=719, Y=1728, Radius=60, VelocityVer=0.38, VelocityHor=-0.15, DetectionNum=5
+Frame 32: X=936, Y=432, Radius=60, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=6
+Frame 34: X=792, Y=1297, Radius=60, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=6
+Frame 35: X=719, Y=1728, Radius=60, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=6
+Frame 33: X=523, Y=905, Radius=20, VelocityVer=2.3, VelocityHor=-0.15, DetectionNum=7
+Frame 34: X=451, Y=1357, Radius=20, VelocityVer=2.3, VelocityHor=-0.15, DetectionNum=7
+Frame 35: X=379, Y=1810, Radius=20, VelocityVer=2.3, VelocityHor=-0.15, DetectionNum=7
+Frame 33: X=864, Y=864, Radius=60, VelocityVer=1.44, VelocityHor=-0.15, DetectionNum=8
+Frame 34: X=792, Y=1297, Radius=60, VelocityVer=1.44, VelocityHor=-0.15, DetectionNum=8
+Frame 35: X=719, Y=1728, Radius=60, VelocityVer=1.44, VelocityHor=-0.15, DetectionNum=8
+Frame 36: X=622, Y=463, Radius=27, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=9
+Frame 37: X=551, Y=929, Radius=27, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=9
+Frame 38: X=479, Y=1393, Radius=27, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=9
+Frame 36: X=622, Y=463, Radius=27, VelocityVer=1.01, VelocityHor=-0.15, DetectionNum=10
+Frame 37: X=551, Y=929, Radius=27, VelocityVer=1.01, VelocityHor=-0.15, DetectionNum=10
+Frame 39: X=407, Y=1859, Radius=27, VelocityVer=1.01, VelocityHor=-0.15, DetectionNum=10
+Frame 36: X=622, Y=463, Radius=27, VelocityVer=1.85, VelocityHor=-0.15, DetectionNum=11
+Frame 38: X=479, Y=1393, Radius=27, VelocityVer=1.85, VelocityHor=-0.15, DetectionNum=11
+Frame 39: X=407, Y=1859, Radius=27, VelocityVer=1.85, VelocityHor=-0.15, DetectionNum=11
+Frame 36: X=302, Y=375, Radius=61, VelocityVer=0.99, VelocityHor=0.45, DetectionNum=12
+Frame 37: X=519, Y=753, Radius=61, VelocityVer=0.99, VelocityHor=0.45, DetectionNum=12
+Frame 39: X=951, Y=1506, Radius=61, VelocityVer=0.99, VelocityHor=0.45, DetectionNum=12
+Frame 36: X=302, Y=375, Radius=61, VelocityVer=1.24, VelocityHor=0.45, DetectionNum=13
+Frame 38: X=735, Y=1129, Radius=61, VelocityVer=1.24, VelocityHor=0.45, DetectionNum=13
+Frame 39: X=951, Y=1506, Radius=61, VelocityVer=1.24, VelocityHor=0.45, DetectionNum=13
+Frame 37: X=551, Y=929, Radius=27, VelocityVer=2.33, VelocityHor=-0.15, DetectionNum=14
+Frame 38: X=479, Y=1393, Radius=27, VelocityVer=2.33, VelocityHor=-0.15, DetectionNum=14
+Frame 39: X=407, Y=1859, Radius=27, VelocityVer=2.33, VelocityHor=-0.15, DetectionNum=14
+Frame 37: X=519, Y=753, Radius=61, VelocityVer=1.45, VelocityHor=0.45, DetectionNum=15
+Frame 38: X=735, Y=1129, Radius=61, VelocityVer=1.45, VelocityHor=0.45, DetectionNum=15
+Frame 39: X=951, Y=1506, Radius=61, VelocityVer=1.45, VelocityHor=0.45, DetectionNum=15
+Frame 39: X=333, Y=639, Radius=35, VelocityVer=1.21, VelocityHor=0.23, DetectionNum=16
+Frame 41: X=549, Y=1277, Radius=35, VelocityVer=1.21, VelocityHor=0.23, DetectionNum=16
+Frame 43: X=766, Y=1916, Radius=35, VelocityVer=1.21, VelocityHor=0.23, DetectionNum=16
+Frame 44: X=268, Y=502, Radius=54, VelocityVer=1.85, VelocityHor=0.45, DetectionNum=17
+Frame 45: X=484, Y=1004, Radius=54, VelocityVer=1.85, VelocityHor=0.45, DetectionNum=17
+Frame 46: X=699, Y=1505, Radius=54, VelocityVer=1.85, VelocityHor=0.45, DetectionNum=17
+Frame 44: X=274, Y=366, Radius=58, VelocityVer=1.12, VelocityHor=0.45, DetectionNum=18
+Frame 45: X=489, Y=732, Radius=58, VelocityVer=1.12, VelocityHor=0.45, DetectionNum=18
+Frame 46: X=705, Y=1099, Radius=58, VelocityVer=1.12, VelocityHor=0.45, DetectionNum=18
+Frame 45: X=489, Y=732, Radius=58, VelocityVer=1.44, VelocityHor=0.45, DetectionNum=19
+Frame 46: X=705, Y=1099, Radius=58, VelocityVer=1.44, VelocityHor=0.45, DetectionNum=19
+Frame 47: X=922, Y=1467, Radius=58, VelocityVer=1.44, VelocityHor=0.45, DetectionNum=19
+Frame 47: X=665, Y=585, Radius=61, VelocityVer=1.75, VelocityHor=-0.15, DetectionNum=20
+Frame 48: X=592, Y=1171, Radius=61, VelocityVer=1.75, VelocityHor=-0.15, DetectionNum=20
+Frame 49: X=521, Y=1756, Radius=61, VelocityVer=1.75, VelocityHor=-0.15, DetectionNum=20
+Frame 49: X=317, Y=612, Radius=5, VelocityVer=2.32, VelocityHor=0.45, DetectionNum=21
+Frame 50: X=533, Y=1224, Radius=5, VelocityVer=2.32, VelocityHor=0.45, DetectionNum=21
+Frame 51: X=749, Y=1837, Radius=5, VelocityVer=2.32, VelocityHor=0.45, DetectionNum=21
+Frame 49: X=1001, Y=383, Radius=49, VelocityVer=-0.02, VelocityHor=-0.15, DetectionNum=22
+Frame 50: X=929, Y=766, Radius=49, VelocityVer=-0.02, VelocityHor=-0.15, DetectionNum=22
+Frame 51: X=857, Y=1149, Radius=49, VelocityVer=-0.02, VelocityHor=-0.15, DetectionNum=22
+Frame 51: X=279, Y=585, Radius=35, VelocityVer=2.56, VelocityHor=-0.15, DetectionNum=23
+Frame 52: X=207, Y=1170, Radius=35, VelocityVer=2.56, VelocityHor=-0.15, DetectionNum=23
+Frame 53: X=135, Y=1755, Radius=35, VelocityVer=2.56, VelocityHor=-0.15, DetectionNum=23
+Frame 53: X=926, Y=560, Radius=5, VelocityVer=1.07, VelocityHor=-0.15, DetectionNum=24
+Frame 54: X=854, Y=1121, Radius=5, VelocityVer=1.07, VelocityHor=-0.15, DetectionNum=24
+Frame 55: X=782, Y=1682, Radius=5, VelocityVer=1.07, VelocityHor=-0.15, DetectionNum=24
+Frame 53: X=502, Y=454, Radius=33, VelocityVer=0.58, VelocityHor=-0.08, DetectionNum=25
+Frame 55: X=430, Y=908, Radius=33, VelocityVer=0.58, VelocityHor=-0.08, DetectionNum=25
+Frame 59: X=287, Y=1819, Radius=33, VelocityVer=0.58, VelocityHor=-0.08, DetectionNum=25
+Frame 55: X=575, Y=431, Radius=26, VelocityVer=1.13, VelocityHor=-0.15, DetectionNum=26
+Frame 56: X=503, Y=863, Radius=26, VelocityVer=1.13, VelocityHor=-0.15, DetectionNum=26
+Frame 57: X=432, Y=1294, Radius=26, VelocityVer=1.13, VelocityHor=-0.15, DetectionNum=26
+Frame 55: X=575, Y=431, Radius=26, VelocityVer=0.94, VelocityHor=-0.15, DetectionNum=27
+Frame 56: X=503, Y=863, Radius=26, VelocityVer=0.94, VelocityHor=-0.15, DetectionNum=27
+Frame 58: X=359, Y=1725, Radius=26, VelocityVer=0.94, VelocityHor=-0.15, DetectionNum=27
+Frame 55: X=575, Y=431, Radius=26, VelocityVer=1.74, VelocityHor=-0.15, DetectionNum=28
+Frame 57: X=432, Y=1294, Radius=26, VelocityVer=1.74, VelocityHor=-0.15, DetectionNum=28
+Frame 58: X=359, Y=1725, Radius=26, VelocityVer=1.74, VelocityHor=-0.15, DetectionNum=28
+Frame 56: X=503, Y=863, Radius=26, VelocityVer=2.19, VelocityHor=-0.15, DetectionNum=29
+Frame 57: X=432, Y=1294, Radius=26, VelocityVer=2.19, VelocityHor=-0.15, DetectionNum=29
+Frame 58: X=359, Y=1725, Radius=26, VelocityVer=2.19, VelocityHor=-0.15, DetectionNum=29
+Frame 66: X=542, Y=548, Radius=10, VelocityVer=1.81, VelocityHor=-0.15, DetectionNum=30
+Frame 67: X=470, Y=1096, Radius=10, VelocityVer=1.81, VelocityHor=-0.15, DetectionNum=30
+Frame 68: X=398, Y=1644, Radius=10, VelocityVer=1.81, VelocityHor=-0.15, DetectionNum=30
+Frame 66: X=693, Y=371, Radius=67, VelocityVer=0.57, VelocityHor=-0.15, DetectionNum=31
+Frame 67: X=621, Y=744, Radius=67, VelocityVer=0.57, VelocityHor=-0.15, DetectionNum=31
+Frame 68: X=549, Y=1117, Radius=67, VelocityVer=0.57, VelocityHor=-0.15, DetectionNum=31
+Frame 66: X=693, Y=371, Radius=67, VelocityVer=0.51, VelocityHor=-0.15, DetectionNum=32
+Frame 67: X=621, Y=744, Radius=67, VelocityVer=0.51, VelocityHor=-0.15, DetectionNum=32
+Frame 69: X=476, Y=1490, Radius=67, VelocityVer=0.51, VelocityHor=-0.15, DetectionNum=32
+Frame 66: X=693, Y=371, Radius=67, VelocityVer=0.49, VelocityHor=-0.15, DetectionNum=33
+Frame 67: X=621, Y=744, Radius=67, VelocityVer=0.49, VelocityHor=-0.15, DetectionNum=33
+Frame 70: X=404, Y=1861, Radius=67, VelocityVer=0.49, VelocityHor=-0.15, DetectionNum=33
+Frame 66: X=693, Y=371, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=34
+Frame 68: X=549, Y=1117, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=34
+Frame 69: X=476, Y=1490, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=34
+Frame 66: X=693, Y=371, Radius=67, VelocityVer=0.91, VelocityHor=-0.15, DetectionNum=35
+Frame 68: X=549, Y=1117, Radius=67, VelocityVer=0.91, VelocityHor=-0.15, DetectionNum=35
+Frame 70: X=404, Y=1861, Radius=67, VelocityVer=0.91, VelocityHor=-0.15, DetectionNum=35
+Frame 67: X=621, Y=744, Radius=67, VelocityVer=1.51, VelocityHor=-0.15, DetectionNum=36
+Frame 68: X=549, Y=1117, Radius=67, VelocityVer=1.51, VelocityHor=-0.15, DetectionNum=36
+Frame 69: X=476, Y=1490, Radius=67, VelocityVer=1.51, VelocityHor=-0.15, DetectionNum=36
+Frame 67: X=621, Y=744, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=37
+Frame 68: X=549, Y=1117, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=37
+Frame 70: X=404, Y=1861, Radius=67, VelocityVer=1.21, VelocityHor=-0.15, DetectionNum=37
+Frame 70: X=519, Y=514, Radius=33, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=38
+Frame 71: X=735, Y=1029, Radius=33, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=38
+Frame 72: X=951, Y=1544, Radius=33, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=38
+Frame 73: X=441, Y=503, Radius=51, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=39
+Frame 74: X=657, Y=1008, Radius=51, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=39
+Frame 75: X=874, Y=1514, Radius=51, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=39
+Frame 77: X=392, Y=425, Radius=5, VelocityVer=1.19, VelocityHor=0.45, DetectionNum=40
+Frame 78: X=608, Y=852, Radius=5, VelocityVer=1.19, VelocityHor=0.45, DetectionNum=40
+Frame 79: X=824, Y=1277, Radius=5, VelocityVer=1.19, VelocityHor=0.45, DetectionNum=40
+Frame 77: X=392, Y=425, Radius=5, VelocityVer=1.06, VelocityHor=0.45, DetectionNum=41
+Frame 78: X=608, Y=852, Radius=5, VelocityVer=1.06, VelocityHor=0.45, DetectionNum=41
+Frame 80: X=1040, Y=1704, Radius=5, VelocityVer=1.06, VelocityHor=0.45, DetectionNum=41
+Frame 77: X=392, Y=425, Radius=5, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=42
+Frame 79: X=824, Y=1277, Radius=5, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=42
+Frame 80: X=1040, Y=1704, Radius=5, VelocityVer=1.39, VelocityHor=0.45, DetectionNum=42
+Frame 78: X=608, Y=852, Radius=5, VelocityVer=1.63, VelocityHor=0.45, DetectionNum=43
+Frame 79: X=824, Y=1277, Radius=5, VelocityVer=1.63, VelocityHor=0.45, DetectionNum=43
+Frame 80: X=1040, Y=1704, Radius=5, VelocityVer=1.63, VelocityHor=0.45, DetectionNum=43
+Frame 80: X=345, Y=480, Radius=42, VelocityVer=1.88, VelocityHor=-0.15, DetectionNum=44
+Frame 81: X=273, Y=962, Radius=42, VelocityVer=1.88, VelocityHor=-0.15, DetectionNum=44
+Frame 82: X=201, Y=1444, Radius=42, VelocityVer=1.88, VelocityHor=-0.15, DetectionNum=44
+Frame 80: X=264, Y=371, Radius=48, VelocityVer=1.17, VelocityHor=0.45, DetectionNum=45
+Frame 81: X=479, Y=743, Radius=48, VelocityVer=1.17, VelocityHor=0.45, DetectionNum=45
+Frame 82: X=696, Y=1116, Radius=48, VelocityVer=1.17, VelocityHor=0.45, DetectionNum=45
+Frame 80: X=264, Y=371, Radius=48, VelocityVer=1.03, VelocityHor=0.45, DetectionNum=46
+Frame 81: X=479, Y=743, Radius=48, VelocityVer=1.03, VelocityHor=0.45, DetectionNum=46
+Frame 83: X=912, Y=1489, Radius=48, VelocityVer=1.03, VelocityHor=0.45, DetectionNum=46
+Frame 80: X=264, Y=371, Radius=48, VelocityVer=1.28, VelocityHor=0.45, DetectionNum=47
+Frame 82: X=696, Y=1116, Radius=48, VelocityVer=1.28, VelocityHor=0.45, DetectionNum=47
+Frame 83: X=912, Y=1489, Radius=48, VelocityVer=1.28, VelocityHor=0.45, DetectionNum=47
+Frame 81: X=479, Y=743, Radius=48, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=48
+Frame 82: X=696, Y=1116, Radius=48, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=48
+Frame 83: X=912, Y=1489, Radius=48, VelocityVer=1.5, VelocityHor=0.45, DetectionNum=48
+Frame 83: X=260, Y=371, Radius=13, VelocityVer=0.23, VelocityHor=0.1, DetectionNum=49
+Frame 86: X=709, Y=548, Radius=12, VelocityVer=0.23, VelocityHor=0.1, DetectionNum=49
+Frame 91: X=421, Y=1304, Radius=12, VelocityVer=0.23, VelocityHor=0.1, DetectionNum=49
+Frame 84: X=793, Y=757, Radius=68, VelocityVer=1.19, VelocityHor=-0.15, DetectionNum=50
+Frame 85: X=721, Y=1136, Radius=68, VelocityVer=1.19, VelocityHor=-0.15, DetectionNum=50
+Frame 86: X=649, Y=1515, Radius=68, VelocityVer=1.19, VelocityHor=-0.15, DetectionNum=50
+Frame 84: X=793, Y=757, Radius=68, VelocityVer=0.98, VelocityHor=-0.15, DetectionNum=51
+Frame 85: X=721, Y=1136, Radius=68, VelocityVer=0.98, VelocityHor=-0.15, DetectionNum=51
+Frame 87: X=576, Y=1892, Radius=68, VelocityVer=0.98, VelocityHor=-0.15, DetectionNum=51
+Frame 84: X=793, Y=757, Radius=68, VelocityVer=1.68, VelocityHor=-0.15, DetectionNum=52
+Frame 86: X=649, Y=1515, Radius=68, VelocityVer=1.68, VelocityHor=-0.15, DetectionNum=52
+Frame 87: X=576, Y=1892, Radius=68, VelocityVer=1.68, VelocityHor=-0.15, DetectionNum=52
+Frame 85: X=721, Y=1136, Radius=68, VelocityVer=2.14, VelocityHor=-0.15, DetectionNum=53
+Frame 86: X=649, Y=1515, Radius=68, VelocityVer=2.14, VelocityHor=-0.15, DetectionNum=53
+Frame 87: X=576, Y=1892, Radius=68, VelocityVer=2.14, VelocityHor=-0.15, DetectionNum=53
+Frame 89: X=566, Y=434, Radius=12, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=54
+Frame 90: X=494, Y=869, Radius=12, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=54
+Frame 91: X=421, Y=1304, Radius=12, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=54
+Frame 89: X=566, Y=434, Radius=12, VelocityVer=0.97, VelocityHor=-0.15, DetectionNum=55
+Frame 90: X=494, Y=869, Radius=12, VelocityVer=0.97, VelocityHor=-0.15, DetectionNum=55
+Frame 92: X=350, Y=1738, Radius=12, VelocityVer=0.97, VelocityHor=-0.15, DetectionNum=55
+Frame 89: X=566, Y=434, Radius=12, VelocityVer=1.77, VelocityHor=-0.15, DetectionNum=56
+Frame 91: X=421, Y=1304, Radius=12, VelocityVer=1.77, VelocityHor=-0.15, DetectionNum=56
+Frame 92: X=350, Y=1738, Radius=12, VelocityVer=1.77, VelocityHor=-0.15, DetectionNum=56
+Frame 89: X=663, Y=400, Radius=45, VelocityVer=0.78, VelocityHor=-0.15, DetectionNum=57
+Frame 90: X=591, Y=800, Radius=45, VelocityVer=0.78, VelocityHor=-0.15, DetectionNum=57
+Frame 91: X=519, Y=1201, Radius=45, VelocityVer=0.78, VelocityHor=-0.15, DetectionNum=57
+Frame 89: X=663, Y=400, Radius=45, VelocityVer=0.67, VelocityHor=-0.15, DetectionNum=58
+Frame 90: X=591, Y=800, Radius=45, VelocityVer=0.67, VelocityHor=-0.15, DetectionNum=58
+Frame 92: X=447, Y=1601, Radius=45, VelocityVer=0.67, VelocityHor=-0.15, DetectionNum=58
+Frame 89: X=663, Y=400, Radius=45, VelocityVer=1.42, VelocityHor=-0.15, DetectionNum=59
+Frame 91: X=519, Y=1201, Radius=45, VelocityVer=1.42, VelocityHor=-0.15, DetectionNum=59
+Frame 92: X=447, Y=1601, Radius=45, VelocityVer=1.42, VelocityHor=-0.15, DetectionNum=59
+Frame 90: X=494, Y=869, Radius=12, VelocityVer=2.23, VelocityHor=-0.15, DetectionNum=60
+Frame 91: X=421, Y=1304, Radius=12, VelocityVer=2.23, VelocityHor=-0.15, DetectionNum=60
+Frame 92: X=350, Y=1738, Radius=12, VelocityVer=2.23, VelocityHor=-0.15, DetectionNum=60
+Frame 90: X=591, Y=800, Radius=45, VelocityVer=1.78, VelocityHor=-0.15, DetectionNum=61
+Frame 91: X=519, Y=1201, Radius=45, VelocityVer=1.78, VelocityHor=-0.15, DetectionNum=61
+Frame 92: X=447, Y=1601, Radius=45, VelocityVer=1.78, VelocityHor=-0.15, DetectionNum=61
+Frame 93: X=340, Y=398, Radius=23, VelocityVer=1.45, VelocityHor=-0.15, DetectionNum=62
+Frame 94: X=267, Y=795, Radius=23, VelocityVer=1.45, VelocityHor=-0.15, DetectionNum=62
+Frame 95: X=195, Y=1194, Radius=23, VelocityVer=1.45, VelocityHor=-0.15, DetectionNum=62
+Frame 93: X=340, Y=398, Radius=23, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=63
+Frame 94: X=267, Y=795, Radius=23, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=63
+Frame 96: X=123, Y=1591, Radius=23, VelocityVer=1.17, VelocityHor=-0.15, DetectionNum=63
+Frame 93: X=340, Y=398, Radius=23, VelocityVer=1.91, VelocityHor=-0.15, DetectionNum=64
+Frame 95: X=195, Y=1194, Radius=23, VelocityVer=1.91, VelocityHor=-0.15, DetectionNum=64
+Frame 96: X=123, Y=1591, Radius=23, VelocityVer=1.91, VelocityHor=-0.15, DetectionNum=64
+Frame 94: X=267, Y=795, Radius=23, VelocityVer=2.44, VelocityHor=-0.15, DetectionNum=65
+Frame 95: X=195, Y=1194, Radius=23, VelocityVer=2.44, VelocityHor=-0.15, DetectionNum=65
+Frame 96: X=123, Y=1591, Radius=23, VelocityVer=2.44, VelocityHor=-0.15, DetectionNum=65
+Frame 94: X=432, Y=617, Radius=16, VelocityVer=1.2, VelocityHor=-0.08, DetectionNum=66
+Frame 96: X=360, Y=1233, Radius=16, VelocityVer=1.2, VelocityHor=-0.08, DetectionNum=66
+Frame 98: X=289, Y=1851, Radius=16, VelocityVer=1.2, VelocityHor=-0.08, DetectionNum=66
