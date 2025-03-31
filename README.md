@@ -6,7 +6,7 @@ python -m venv hailstone-env
 hailstone-env\Scripts\activate
 
 #Required Librares
-pip install opencv-python numpy
+pip install opencv-python numpy\n
 pip install matplotlib
 pip install opencv-python-headless
 
